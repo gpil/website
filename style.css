@@ -1,0 +1,168 @@
+* {
+
+padding:0;
+
+margin:0;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, label, ul, ol, dl, fieldset, address { margin:20px 0; }
+
+li, dd, blockquote { margin-left: 40px; }
+
+fieldset { padding:10px; }
+
+img { border: 0px; }
+/* @end */
+
+/* @group HTML, Body */
+body {
+	font-size: 1em;
+	font-family: "Times New Roman", Times, serif;
+        background-color: white ;
+
+}
+
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+
+div#outer-wrapper {
+        margin-top: 2%;
+	background: url(csik3.jpg) repeat-y;
+        overflow: hidden;
+}
+
+
+div#content {
+float: right ;
+	width: 65%;
+        margin-top: 20px;
+	margin-right: 150px;
+	display: inline;
+        overflow: hidden;
+        font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+
+
+div#sidebar {
+	float: left;
+        margin-top: 40px;
+        margin-left: 2%;
+	width: 18%;
+	display: inline;
+        background: url(black.jpg);
+        font-family: "Times New Roman", serif;
+         text-transform: uppercase;
+}
+
+ul.side-nav {
+	margin: 25px 10px 25px 50px;
+ 
+	font-size: 1em;
+        color: "white";
+}
+ul.side-nav li {
+	margin: 0;
+	list-style-type: none;
+	padding: 1px 0;
+}
+ul.side-nav li a {
+	display: block;
+	margin: 0;
+	padding: 5px 0 5px 5px;
+
+}
+
+ul.side-nav li a:link, ul.side-nav li a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+ul.side-nav li a:hover {
+	color: #cac6ba;
+}
+
+h3.alcim {
+  color:rgb(150, 38, 70);
+  color:rgb(94, 38, 5);
+}
+
+h2.alcim {
+  color:rgb(94, 38, 5);
+  color:rgb(150, 38, 70);
+}
+
+hr.vonal{
+  width: 100%; height: 3px;
+  color:black;
+  background-color: black;
+}
+
+font.title {
+font-size:100%;
+font-weight:bold;
+color:black;
+}
+
+a.pdf {
+font-size:120%;
+font-weight:bold;
+color:red;
+}
+
+font.author {
+font-size:100%;
+}
+
+font.journal {
+font-size:100%;
+color:rgb(94, 38, 5);
+}
+
+font.conference {
+font-size:100%;
+color:rgb(94, 38, 5);
+font-style:italic;
+}
+
+
+font.arxiv {
+font-size:100%;
+color:blue;
+font-style:italic;
+}
+
+p.abstract{
+  font-size:90%;
+  margin-left:20pt;
+color:grey;
+text-align:justify;
+font-style:italic;
+}
+
+table.publist {
+padding:6px 20px;
+width:100%;
+border-spacing:15pt;
+}
+
+tr.pubitem {
+
+}
+
+td.main {
+width:80%;
+}
+
+td.link {
+  vertical-align: baseline;
+  text-align:center;
+width:20%;
+}
+
+td.rest {
+width:0%
+}
